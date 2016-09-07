@@ -1,2 +1,1 @@
-var x = 'Hello'
-console.log('toast');
+require('angular');
