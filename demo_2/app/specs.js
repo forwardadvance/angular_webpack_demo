@@ -3,3 +3,5 @@ describe('working specs', () => {
     expect(true).toBe(true);
   })
 })
+
+require('./rainbow.component/rainbow.controller.spec')
