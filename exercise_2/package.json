@@ -6,8 +6,9 @@
   "scripts": {
     "dev-server": "webpack-dev-server -d --content-base . --port 5000",
     "build": "webpack -wd",
+    "specs": "live-server --open=specs.build/specs.html",
     "open": "opener http://localhost:5000/webpack-dev-server/index.html",
-    "dev": "node ./node_modules/concurrently/src/main.js --kill-others \"npm run build\"  \"npm run dev-server\"; npm run open  "
+    "dev": "node ./node_modules/concurrently/src/main.js --kill-others \"npm run build\" \"npm run specs\"  \"npm run dev-server\"; npm run open  "
   },
   "author": "",
   "license": "ISC",
@@ -16,9 +17,13 @@
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
     "concurrently": "^2.1.0",
+    "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "jasmine-core": "^2.4.1",
     "live-server": "^1.0.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
