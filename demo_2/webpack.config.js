@@ -7,12 +7,6 @@ module.exports = [
     output: {
       filename: "./app.build/app.build.js",
     },
-    resolve: {
-      extensions: ['', '.ts', '.js']
-    },
-    resolveLoader: {
-      root: path.join(__dirname, 'node_modules')
-    },
     module: {
       loaders: [
         { test: /\.js$/, loader: 'babel-loader' }
@@ -43,9 +37,6 @@ module.exports = [
     entry: './app/specs.js',
     output: {
       filename: './specs.build/specs.build.js'
-    },
-    resolve: {
-      extensions: ['', '.ts', '.js']
     },
     module: {
       loaders: [

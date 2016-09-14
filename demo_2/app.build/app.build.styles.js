@@ -43,16 +43,12 @@
 /******/ ([
 /* 0 */
 /*!**********************!*\
-  !*** ./app/specs.js ***!
+  !*** ./app/app.scss ***!
   \**********************/
 /***/ function(module, exports) {
 
-	describe('working specs', () => {
-	  it('should work', () => {
-	    expect(true).toBe(true);
-	  });
-	});
+	// removed by extract-text-webpack-plugin
 
 /***/ }
 /******/ ]);
-//# sourceMappingURL=specs.build.js.map
+//# sourceMappingURL=app.build.styles.js.map

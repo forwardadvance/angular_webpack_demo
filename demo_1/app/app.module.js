@@ -1,3 +1,4 @@
-angular.module('app', [
-  require('./cat.component')
-])
+module.exports =
+  angular.module('app', [
+    require('./cat.component')
+  ])
